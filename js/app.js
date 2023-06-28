@@ -135,3 +135,6 @@ const isspinning = isLoading => {
         loading.classList.add('hidden')
     }
 }
+document.getElementById('fo').addEventListener('click', function(event){
+  event.preventDefault()
+})
